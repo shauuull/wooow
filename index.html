@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>FLORES</title>
+    <style>
+        /* Estilo para el nuevo botón */
+        .click-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: #f08080;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onclick="Playaudi()">
+    <!-- Nuevo botón agregado -->
+    <button class="click-button">Primero Clickea Aqui Owo</button>
+
+    <div class="greetings">
+        <span>H</span>
+        <span>O</span>
+        <span>L</span>
+        <span>A</span>
+    </div>
+    <div class="greetings">
+        <span>L</span>
+        <span>I</span>
+        <span>N</span>
+        <span>D</span>
+        <span>A</span>
+        <span></span>
+    </div>
+    <div class="description">
+        <span>Feliz 14 de Febrero!!</span>
+    </div>
+    <div class="button">
+        <button>
+            <a href="FLORES.html">Presiona aca o.o</a>
+        </button>
+    </div>
+    <audio id="musica1" autoplay >
+        <source src="audio/index.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script> function Playaudi(){
+        document.getElementById("musica1").play();
+    } </script>
+</body>
+</html>
